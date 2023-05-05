@@ -35,6 +35,24 @@
             width: 12px;
             height: 9px;
             background: url('../img/arrow-left.svg') no-repeat center;
+            &:hover {
+                background: url('../img/arrow-left-hover.svg') no-repeat center;
+            }
+            &:visited {
+                background: url('../img/arrow-left-visited.svg') no-repeat center;
+            }
+            &:disabled {
+                background: url('../img/arrow-left-disabled.svg') no-repeat center;
+            }
+        }
+        &:hover {
+            color: #0017E6;
+        }
+        &:visited {
+            color: #8793FF;
+        }
+        &:disabled {
+            color: #CCCCCC;
         }
     }
 }

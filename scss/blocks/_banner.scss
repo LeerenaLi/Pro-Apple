@@ -27,6 +27,15 @@
         font-weight: 400;
         font-size: 14px;
         padding: 14px 20px;
+        &:active {
+            background: #2238FF;
+            color: #fff;
+        }
+        &:disabled {
+            background: #CCCCCC;
+            border: 1px solid #CCCCCC;
+            color: #fff;
+        }
     }
 }
 

@@ -6,6 +6,11 @@
             flex-direction: column;
         }
     }
+    &__link {
+        &:hover {
+            color: #2238FF;
+        }
+    }
 }
 
 @media (min-width: 560px) {

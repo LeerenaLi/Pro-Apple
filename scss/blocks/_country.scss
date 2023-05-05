@@ -55,6 +55,11 @@
         background-color: #ECECEC;
         border-radius: 2px;
     }
+    &__choise {
+        &:hover {
+            color: #2238FF;
+        }
+    }
 }
 
 @media (min-width: 1024px) {
